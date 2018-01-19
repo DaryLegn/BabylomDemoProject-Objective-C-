@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B1265F01FFEB0DA00ED6FAE /* PackigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1265EF1FFEB0DA00ED6FAE /* PackigManager.m */; };
+		4B1265F51FFEBA8500ED6FAE /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1265F41FFEBA8500ED6FAE /* DataBaseManager.m */; };
+		4B1D3D8F1FFE00CC00F3476C /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D3D8E1FFE00CC00F3476C /* NetworkManager.m */; };
+		4B1D3D921FFE03BA00F3476C /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D3D911FFE03BA00F3476C /* MyTableViewCell.m */; };
+		4B1D3D951FFE429600F3476C /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D3D941FFE429600F3476C /* MyTableView.m */; };
+		4B2B8FFB1FFD6C3700484B90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B8FFA1FFD6C3700484B90 /* AppDelegate.m */; };
+		4B2B8FFE1FFD6C3700484B90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B8FFD1FFD6C3700484B90 /* ViewController.m */; };
+		4B2B90011FFD6C3700484B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B8FFF1FFD6C3700484B90 /* Main.storyboard */; };
+		4B2B90041FFD6C3700484B90 /* Babylon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B90021FFD6C3700484B90 /* Babylon.xcdatamodeld */; };
+		4B2B90061FFD6C3700484B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B90051FFD6C3700484B90 /* Assets.xcassets */; };
+		4B2B90091FFD6C3700484B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B90071FFD6C3700484B90 /* LaunchScreen.storyboard */; };
+		4B2B900C1FFD6C3700484B90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B900B1FFD6C3700484B90 /* main.m */; };
+		4BB3B88B2007BE73004DA280 /* JsonNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3B88A2007BE73004DA280 /* JsonNetworkManager.m */; };
+		753894CBB0A57E874C153910 /* Pods_Babylon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C149807D934514AE30B7E75 /* Pods_Babylon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C149807D934514AE30B7E75 /* Pods_Babylon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Babylon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1265EE1FFEB0DA00ED6FAE /* PackigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackigManager.h; sourceTree = "<group>"; };
+		4B1265EF1FFEB0DA00ED6FAE /* PackigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackigManager.m; sourceTree = "<group>"; };
+		4B1265F31FFEBA8500ED6FAE /* DataBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		4B1265F41FFEBA8500ED6FAE /* DataBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		4B1D3D8D1FFE00CC00F3476C /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		4B1D3D8E1FFE00CC00F3476C /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		4B1D3D901FFE03BA00F3476C /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		4B1D3D911FFE03BA00F3476C /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		4B1D3D931FFE429600F3476C /* MyTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		4B1D3D941FFE429600F3476C /* MyTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		4B2B8FF61FFD6C3700484B90 /* Babylon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babylon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2B8FF91FFD6C3700484B90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B2B8FFA1FFD6C3700484B90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B2B8FFC1FFD6C3700484B90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B2B8FFD1FFD6C3700484B90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B2B90001FFD6C3700484B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B2B90031FFD6C3700484B90 /* Babylon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Babylon.xcdatamodel; sourceTree = "<group>"; };
+		4B2B90051FFD6C3700484B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B2B90081FFD6C3700484B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B2B900A1FFD6C3700484B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2B900B1FFD6C3700484B90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BB3B8892007BE73004DA280 /* JsonNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonNetworkManager.h; sourceTree = "<group>"; };
+		4BB3B88A2007BE73004DA280 /* JsonNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonNetworkManager.m; sourceTree = "<group>"; };
+		C37DD955FC01812113E2BE7D /* Pods-Babylon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babylon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Babylon/Pods-Babylon.release.xcconfig"; sourceTree = "<group>"; };
+		D67E1F0CB5823E7EF4B01473 /* Pods-Babylon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babylon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Babylon/Pods-Babylon.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B2B8FF31FFD6C3700484B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753894CBB0A57E874C153910 /* Pods_Babylon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1265EC1FFE91EB00ED6FAE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4B2B90071FFD6C3700484B90 /* LaunchScreen.storyboard */,
+				4B2B90021FFD6C3700484B90 /* Babylon.xcdatamodeld */,
+				4B2B900B1FFD6C3700484B90 /* main.m */,
+				4B2B90051FFD6C3700484B90 /* Assets.xcassets */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4B1265ED1FFE921700ED6FAE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4B2B8FF91FFD6C3700484B90 /* AppDelegate.h */,
+				4B2B8FFA1FFD6C3700484B90 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4B1265F21FFEB7C100ED6FAE /* PackigeManager */ = {
+			isa = PBXGroup;
+			children = (
+				4B1265EE1FFEB0DA00ED6FAE /* PackigManager.h */,
+				4B1265EF1FFEB0DA00ED6FAE /* PackigManager.m */,
+				4B1265F31FFEBA8500ED6FAE /* DataBaseManager.h */,
+				4B1265F41FFEBA8500ED6FAE /* DataBaseManager.m */,
+			);
+			path = PackigeManager;
+			sourceTree = "<group>";
+		};
+		4B1D3D961FFE437600F3476C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B2B8FFC1FFD6C3700484B90 /* ViewController.h */,
+				4B2B8FFD1FFD6C3700484B90 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4B1D3D971FFE439100F3476C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4B1D3D911FFE03BA00F3476C /* MyTableViewCell.m */,
+				4B1D3D901FFE03BA00F3476C /* MyTableViewCell.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4B1D3D981FFE43A000F3476C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				4B1D3D931FFE429600F3476C /* MyTableView.h */,
+				4B1D3D941FFE429600F3476C /* MyTableView.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		4B1D3D9A1FFE43CB00F3476C /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				4BB3B8892007BE73004DA280 /* JsonNetworkManager.h */,
+				4BB3B88A2007BE73004DA280 /* JsonNetworkManager.m */,
+				4B1D3D8D1FFE00CC00F3476C /* NetworkManager.h */,
+				4B1D3D8E1FFE00CC00F3476C /* NetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		4B2B8FED1FFD6C3700484B90 = {
+			isa = PBXGroup;
+			children = (
+				4B2B8FF81FFD6C3700484B90 /* Babylon */,
+				4B2B8FF71FFD6C3700484B90 /* Products */,
+				A0ACBC02D9D4308DF2207636 /* Pods */,
+				5627F771E697A09469C97C82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B2B8FF71FFD6C3700484B90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B2B8FF61FFD6C3700484B90 /* Babylon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B2B8FF81FFD6C3700484B90 /* Babylon */ = {
+			isa = PBXGroup;
+			children = (
+				4B1265ED1FFE921700ED6FAE /* AppDelegate */,
+				4B1D3D961FFE437600F3476C /* ViewController */,
+				4B1D3D981FFE43A000F3476C /* TableView */,
+				4B1265F21FFEB7C100ED6FAE /* PackigeManager */,
+				4B1D3D971FFE439100F3476C /* Cell */,
+				4B1D3D9A1FFE43CB00F3476C /* NetworkManager */,
+				4B2B8FFF1FFD6C3700484B90 /* Main.storyboard */,
+				4B2B900A1FFD6C3700484B90 /* Info.plist */,
+				4B1265EC1FFE91EB00ED6FAE /* New Group */,
+			);
+			path = Babylon;
+			sourceTree = "<group>";
+		};
+		5627F771E697A09469C97C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C149807D934514AE30B7E75 /* Pods_Babylon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0ACBC02D9D4308DF2207636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D67E1F0CB5823E7EF4B01473 /* Pods-Babylon.debug.xcconfig */,
+				C37DD955FC01812113E2BE7D /* Pods-Babylon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B2B8FF51FFD6C3700484B90 /* Babylon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2B900F1FFD6C3700484B90 /* Build configuration list for PBXNativeTarget "Babylon" */;
+			buildPhases = (
+				F4603A53FB2A649491EF904F /* [CP] Check Pods Manifest.lock */,
+				4B2B8FF21FFD6C3700484B90 /* Sources */,
+				4B2B8FF31FFD6C3700484B90 /* Frameworks */,
+				4B2B8FF41FFD6C3700484B90 /* Resources */,
+				36A0AD1230AA49D2ECBEC90C /* [CP] Embed Pods Frameworks */,
+				45BC1044132F2E92304DFC87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Babylon;
+			productName = Babylon;
+			productReference = 4B2B8FF61FFD6C3700484B90 /* Babylon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B2B8FEE1FFD6C3700484B90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Дарья Лень";
+				TargetAttributes = {
+					4B2B8FF51FFD6C3700484B90 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4B2B8FF11FFD6C3700484B90 /* Build configuration list for PBXProject "Babylon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B2B8FED1FFD6C3700484B90;
+			productRefGroup = 4B2B8FF71FFD6C3700484B90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B2B8FF51FFD6C3700484B90 /* Babylon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B2B8FF41FFD6C3700484B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2B90091FFD6C3700484B90 /* LaunchScreen.storyboard in Resources */,
+				4B2B90061FFD6C3700484B90 /* Assets.xcassets in Resources */,
+				4B2B90011FFD6C3700484B90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36A0AD1230AA49D2ECBEC90C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Babylon/Pods-Babylon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Babylon/Pods-Babylon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45BC1044132F2E92304DFC87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Babylon/Pods-Babylon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4603A53FB2A649491EF904F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Babylon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B2B8FF21FFD6C3700484B90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2B8FFE1FFD6C3700484B90 /* ViewController.m in Sources */,
+				4B2B8FFB1FFD6C3700484B90 /* AppDelegate.m in Sources */,
+				4B2B900C1FFD6C3700484B90 /* main.m in Sources */,
+				4B1D3D921FFE03BA00F3476C /* MyTableViewCell.m in Sources */,
+				4B1265F51FFEBA8500ED6FAE /* DataBaseManager.m in Sources */,
+				4B1265F01FFEB0DA00ED6FAE /* PackigManager.m in Sources */,
+				4B1D3D951FFE429600F3476C /* MyTableView.m in Sources */,
+				4B1D3D8F1FFE00CC00F3476C /* NetworkManager.m in Sources */,
+				4B2B90041FFD6C3700484B90 /* Babylon.xcdatamodeld in Sources */,
+				4BB3B88B2007BE73004DA280 /* JsonNetworkManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B2B8FFF1FFD6C3700484B90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B2B90001FFD6C3700484B90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B2B90071FFD6C3700484B90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B2B90081FFD6C3700484B90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B2B900D1FFD6C3700484B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B2B900E1FFD6C3700484B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B2B90101FFD6C3700484B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67E1F0CB5823E7EF4B01473 /* Pods-Babylon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Babylon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ASA.Babylon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B2B90111FFD6C3700484B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37DD955FC01812113E2BE7D /* Pods-Babylon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Babylon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ASA.Babylon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2B8FF11FFD6C3700484B90 /* Build configuration list for PBXProject "Babylon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2B900D1FFD6C3700484B90 /* Debug */,
+				4B2B900E1FFD6C3700484B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B2B900F1FFD6C3700484B90 /* Build configuration list for PBXNativeTarget "Babylon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2B90101FFD6C3700484B90 /* Debug */,
+				4B2B90111FFD6C3700484B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B2B90021FFD6C3700484B90 /* Babylon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B2B90031FFD6C3700484B90 /* Babylon.xcdatamodel */,
+			);
+			currentVersion = 4B2B90031FFD6C3700484B90 /* Babylon.xcdatamodel */;
+			path = Babylon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B2B8FEE1FFD6C3700484B90 /* Project object */;
+}

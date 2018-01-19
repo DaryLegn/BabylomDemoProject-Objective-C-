@@ -1,0 +1,6 @@
+framework module Pods_Babylon {
+  umbrella header "Pods-Babylon-umbrella.h"
+
+  export *
+  module * { export * }
+}
