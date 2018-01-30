@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "JsonNetworkManager.h"
-#import "MyTableView.h"
-#import "PackigManager.h"
-#import "NetworkManager.h"
+#import "DetailViewController.h"
 
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong)  NSArray *responseObjectData;
 @property (weak, nonatomic) IBOutlet UILabel *postInput;

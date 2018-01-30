@@ -19,7 +19,7 @@ typedef void (^BabylonComments)(NSArray* responseArray, NSError *error);
 
 -(void) loadPostsWithCompletion:(BabylonPost)completion;
 
-- (void) loadUsersWithComplition:(BabylonUsers)completion;
+- (void) loadUsersWithCompletion:(BabylonUsers)completion;
 
 -(void)loadCommentsWithCompletion:(BabylonComments)completion;
 

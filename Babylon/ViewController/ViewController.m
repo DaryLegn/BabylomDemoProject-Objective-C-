@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
+@class DetailViewController;
 
 @interface ViewController ()
 @property (strong, nonatomic) NetworkManager *manager;
-
+@property (strong, nonatomic) NSArray* arrayForDetails;
+@property (strong, nonatomic) NSArray* array;
 
 @end
 
@@ -26,11 +28,7 @@
 
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
-    return 10;
-    
-}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     
     return 1;
@@ -40,15 +38,11 @@
     
     MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath: indexPath];
     
-    NetworkManager *manager = [NetworkManager new];
-    [manager getPostsWithCompletion:^(id responseObject, NSError *error) {
+    JsonNetworkManager *manager = [ JsonNetworkManager new];
+    [manager loadPostsWithCompletion:^(id responseObject, NSError *error) {
         
         self.responseObjectData = [responseObject valueForKey:@"title"];
         NSString *babylonURL = [self.responseObjectData objectAtIndex:indexPath.row];
-        
-       // cell.postInput.text = babylonURL;
-        //NSLog(@"\n\n%@", babylonURL);
-        
         cell.postInput.text = [NSString stringWithFormat:@"%@",babylonURL];
        
             }];
@@ -56,9 +50,24 @@
     return cell;
     
 }
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+  
+    return 10;
+    
+}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 100;
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([segue.identifier isEqualToString: @"ShowDetails"] ) {
+        DetailViewController *controller = (DetailViewController *)segue.destinationViewController;
+        controller.usersArray = self.arrayForDetails;
+            controller.usersArray= [self.arrayForDetails objectAtIndex:[self.tableView indexPathForSelectedRow].row];
+    }
+    
 }
 
 @end

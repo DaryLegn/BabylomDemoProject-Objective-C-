@@ -10,7 +10,6 @@
 #import "AFNetworking/AFNetworking.h"
 #import "ViewController.h"
 #import "MyTableViewCell.h"
-#import "MyTableView.h"
 #import "DataBaseManager.h"
 
 typedef void (^RequestCompletionBlock)(id responseObject, NSError *error);
@@ -25,4 +24,9 @@ typedef void (^RequestCompletionBlock)(id responseObject, NSError *error);
 - (void)getPostsWithCompletion:(void (^)(id responseObject, NSError *error))completion;
 - (void)loadGETRequest:(NSString *)urlString requestCompletion:(RequestCompletionBlock)completion;
 - (void)loadGETRequestFrom:(NSURL *)URL withRequestCompletion:(void (^)(id responseObject, NSError *error))completion;
+- (void)getCommentsWithCompletion:(void (^)(id responseObject, NSError *error))completion ;
+- (void) getUserWithComplition:(void (^)(id responseObject, NSError *error))completion;
+
+- (void)loadGETRequestForUsers:(NSString *)urlString requestCompletion:(RequestCompletionBlock)completion;
+- (void)loadGETRequestForComments:(NSString *)urlString requestCompletion:(RequestCompletionBlock)completion;
 @end

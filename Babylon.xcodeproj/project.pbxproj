@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B02F1FF201876D4004E68A1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02F1FE201876D4004E68A1 /* DetailViewController.m */; };
+		4B02F2022018982C004E68A1 /* NetworkForDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02F2012018982C004E68A1 /* NetworkForDetails.m */; };
 		4B1265F01FFEB0DA00ED6FAE /* PackigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1265EF1FFEB0DA00ED6FAE /* PackigManager.m */; };
 		4B1265F51FFEBA8500ED6FAE /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1265F41FFEBA8500ED6FAE /* DataBaseManager.m */; };
 		4B1D3D8F1FFE00CC00F3476C /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D3D8E1FFE00CC00F3476C /* NetworkManager.m */; };
 		4B1D3D921FFE03BA00F3476C /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D3D911FFE03BA00F3476C /* MyTableViewCell.m */; };
-		4B1D3D951FFE429600F3476C /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D3D941FFE429600F3476C /* MyTableView.m */; };
 		4B2B8FFB1FFD6C3700484B90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B8FFA1FFD6C3700484B90 /* AppDelegate.m */; };
 		4B2B8FFE1FFD6C3700484B90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B8FFD1FFD6C3700484B90 /* ViewController.m */; };
 		4B2B90011FFD6C3700484B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B8FFF1FFD6C3700484B90 /* Main.storyboard */; };
@@ -20,11 +21,16 @@
 		4B2B90091FFD6C3700484B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B90071FFD6C3700484B90 /* LaunchScreen.storyboard */; };
 		4B2B900C1FFD6C3700484B90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B900B1FFD6C3700484B90 /* main.m */; };
 		4BB3B88B2007BE73004DA280 /* JsonNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3B88A2007BE73004DA280 /* JsonNetworkManager.m */; };
+		4BF6DDE2201B501C002DDBF9 /* TableViewCellForSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6DDE1201B501C002DDBF9 /* TableViewCellForSecondViewController.m */; };
 		753894CBB0A57E874C153910 /* Pods_Babylon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C149807D934514AE30B7E75 /* Pods_Babylon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C149807D934514AE30B7E75 /* Pods_Babylon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Babylon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B02F1FD201876D4004E68A1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4B02F1FE201876D4004E68A1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4B02F2002018982C004E68A1 /* NetworkForDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkForDetails.h; sourceTree = "<group>"; };
+		4B02F2012018982C004E68A1 /* NetworkForDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkForDetails.m; sourceTree = "<group>"; };
 		4B1265EE1FFEB0DA00ED6FAE /* PackigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackigManager.h; sourceTree = "<group>"; };
 		4B1265EF1FFEB0DA00ED6FAE /* PackigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackigManager.m; sourceTree = "<group>"; };
 		4B1265F31FFEBA8500ED6FAE /* DataBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
@@ -33,8 +39,6 @@
 		4B1D3D8E1FFE00CC00F3476C /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		4B1D3D901FFE03BA00F3476C /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
 		4B1D3D911FFE03BA00F3476C /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
-		4B1D3D931FFE429600F3476C /* MyTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
-		4B1D3D941FFE429600F3476C /* MyTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
 		4B2B8FF61FFD6C3700484B90 /* Babylon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babylon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2B8FF91FFD6C3700484B90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B2B8FFA1FFD6C3700484B90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 		4B2B900B1FFD6C3700484B90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BB3B8892007BE73004DA280 /* JsonNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonNetworkManager.h; sourceTree = "<group>"; };
 		4BB3B88A2007BE73004DA280 /* JsonNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonNetworkManager.m; sourceTree = "<group>"; };
+		4BF6DDE0201B501C002DDBF9 /* TableViewCellForSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellForSecondViewController.h; sourceTree = "<group>"; };
+		4BF6DDE1201B501C002DDBF9 /* TableViewCellForSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellForSecondViewController.m; sourceTree = "<group>"; };
 		C37DD955FC01812113E2BE7D /* Pods-Babylon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babylon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Babylon/Pods-Babylon.release.xcconfig"; sourceTree = "<group>"; };
 		D67E1F0CB5823E7EF4B01473 /* Pods-Babylon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babylon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Babylon/Pods-Babylon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +106,10 @@
 			children = (
 				4B2B8FFC1FFD6C3700484B90 /* ViewController.h */,
 				4B2B8FFD1FFD6C3700484B90 /* ViewController.m */,
+				4B02F1FD201876D4004E68A1 /* DetailViewController.h */,
+				4B02F1FE201876D4004E68A1 /* DetailViewController.m */,
+				4B02F2002018982C004E68A1 /* NetworkForDetails.h */,
+				4B02F2012018982C004E68A1 /* NetworkForDetails.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -109,17 +119,10 @@
 			children = (
 				4B1D3D911FFE03BA00F3476C /* MyTableViewCell.m */,
 				4B1D3D901FFE03BA00F3476C /* MyTableViewCell.h */,
+				4BF6DDE0201B501C002DDBF9 /* TableViewCellForSecondViewController.h */,
+				4BF6DDE1201B501C002DDBF9 /* TableViewCellForSecondViewController.m */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		4B1D3D981FFE43A000F3476C /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				4B1D3D931FFE429600F3476C /* MyTableView.h */,
-				4B1D3D941FFE429600F3476C /* MyTableView.m */,
-			);
-			path = TableView;
 			sourceTree = "<group>";
 		};
 		4B1D3D9A1FFE43CB00F3476C /* NetworkManager */ = {
@@ -156,7 +159,6 @@
 			children = (
 				4B1265ED1FFE921700ED6FAE /* AppDelegate */,
 				4B1D3D961FFE437600F3476C /* ViewController */,
-				4B1D3D981FFE43A000F3476C /* TableView */,
 				4B1265F21FFEB7C100ED6FAE /* PackigeManager */,
 				4B1D3D971FFE439100F3476C /* Cell */,
 				4B1D3D9A1FFE43CB00F3476C /* NetworkManager */,
@@ -276,7 +278,7 @@
 		};
 		45BC1044132F2E92304DFC87 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -284,10 +286,9 @@
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Babylon/Pods-Babylon-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		F4603A53FB2A649491EF904F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -315,12 +316,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B2B8FFE1FFD6C3700484B90 /* ViewController.m in Sources */,
+				4B02F2022018982C004E68A1 /* NetworkForDetails.m in Sources */,
 				4B2B8FFB1FFD6C3700484B90 /* AppDelegate.m in Sources */,
 				4B2B900C1FFD6C3700484B90 /* main.m in Sources */,
 				4B1D3D921FFE03BA00F3476C /* MyTableViewCell.m in Sources */,
 				4B1265F51FFEBA8500ED6FAE /* DataBaseManager.m in Sources */,
+				4BF6DDE2201B501C002DDBF9 /* TableViewCellForSecondViewController.m in Sources */,
 				4B1265F01FFEB0DA00ED6FAE /* PackigManager.m in Sources */,
-				4B1D3D951FFE429600F3476C /* MyTableView.m in Sources */,
+				4B02F1FF201876D4004E68A1 /* DetailViewController.m in Sources */,
 				4B1D3D8F1FFE00CC00F3476C /* NetworkManager.m in Sources */,
 				4B2B90041FFD6C3700484B90 /* Babylon.xcdatamodeld in Sources */,
 				4BB3B88B2007BE73004DA280 /* JsonNetworkManager.m in Sources */,
@@ -458,11 +461,14 @@
 			baseConfigurationReference = D67E1F0CB5823E7EF4B01473 /* Pods-Babylon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRVF5T7H2C;
 				INFOPLIST_FILE = Babylon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ASA.Babylon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -472,11 +478,14 @@
 			baseConfigurationReference = C37DD955FC01812113E2BE7D /* Pods-Babylon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRVF5T7H2C;
 				INFOPLIST_FILE = Babylon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ASA.Babylon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -491,7 +500,7 @@
 				4B2B900E1FFD6C3700484B90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4B2B900F1FFD6C3700484B90 /* Build configuration list for PBXNativeTarget "Babylon" */ = {
 			isa = XCConfigurationList;
@@ -500,7 +509,7 @@
 				4B2B90111FFD6C3700484B90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

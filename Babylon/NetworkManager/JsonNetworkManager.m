@@ -24,7 +24,7 @@ static NSString *comments = @"comments";
     }];
 }
 
-- (void) loadUsersWithComplition:(BabylonUsers)completion{
+- (void) loadUsersWithCompletion:(BabylonUsers)completion{
     NetworkManager *nm = [NetworkManager new];
     [nm loadGETRequest:users requestCompletion:^(id responseObject, NSError *error) {
         if(completion){

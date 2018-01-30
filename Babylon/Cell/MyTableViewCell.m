@@ -14,10 +14,6 @@
 
 -(void) fillInPosts {
     
-    MyTableView *view = [MyTableView new];
-    //[];
-    self.postInput.text =@"zzz";
-    
 }
 
 - (void)awakeFromNib {
